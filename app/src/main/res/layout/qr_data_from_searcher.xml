@@ -1,0 +1,63 @@
+<com.daimajia.swipe.SwipeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="110dp"
+        android:gravity="center"
+        android:weightSum="1">
+        <ImageView
+            android:id="@+id/favourite"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.5"
+            android:src="@mipmap/ic_star_not_filled_foreground"
+            android:contentDescription="@string/star" />
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="45dp"
+            android:layout_height="58dp"
+            android:layout_weight="0.5"
+            android:contentDescription="@string/share"
+            android:src="@mipmap/ic_share_foreground" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/qrDataLayoutSearcher"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="8dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?android:attr/selectableItemBackground">
+        <com.vadim.ui.custom_view.PhotoImageView
+            android:id="@+id/qrSearchingOriginalPhoto"
+            android:layout_width="70dp"
+            android:layout_height="110dp" />
+        <LinearLayout
+            android:id="@+id/layoutSearcherText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:paddingStart="10dp"
+            tools:ignore="RtlSymmetry">
+            <TextView
+                android:id="@+id/qrSearchingName"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:textColor="@color/colorTextOfContent"
+                android:textSize="19sp"
+                android:layout_weight="0.5"
+                android:ellipsize="end"
+                android:maxLines="1"
+                tools:ignore="NestedWeights,RtlCompat" />
+        </LinearLayout>
+    </LinearLayout>
+</com.daimajia.swipe.SwipeLayout>

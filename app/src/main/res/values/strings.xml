@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Qr-List</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="name_of_main_page">Главное</string>
+    <string name="name_of_favourites_page">Важные</string>
+    <string name="name_of_settings_page">Настройки</string>
+    <string name="name_of_share">Поделиться</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="name_of_item_menu_toolbar">Search</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="ok_name">Ok</string>
+    <string name="permission_content">"Разрешите доступ у внешнему хранилищу для того, чтобы отображать и загружать изображения  "</string>
+    <string name="star">Favourite</string>
+    <string name="share">Share</string>
+    <string name="action_share">Поделиться фото</string>
+    <string name="memory">Внешняя память</string>
+    <string name="settings_activity_title">Настройки</string>
+    <string name="load_photos_text">Загружать фотографии в папку /Picture/QrList</string>
+    <string name="delete_photos_text">Очистить все фотографии из папки /Picture/QrList</string>
+    <string name="dark_theme_text">Использовать темную тему</string>
+    <string name="information_title">Информация</string>
+    <string name="contacts">Контакты</string>
+    <string name="support_text">По вопросам обращаться <hr />
+        <i>vadimlipakov@gmail.com</i></string>
+    <string name="information_text">Qr-List - приложение, которое помогает быстро найти и в полном масштабе отобразить фотографии с QR- кодом в вашем телефоне.</string>
+    <string name="empty_list">Список пуст</string>
+    <string name="delete">delete</string>
+    <string name="back_press">backPress</string>
+    <string name="change_text">Изменить</string>
+</resources>

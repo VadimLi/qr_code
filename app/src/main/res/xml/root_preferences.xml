@@ -1,0 +1,27 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="category_of_memory"
+        android:title="@string/memory">
+        <SwitchPreference
+            android:key="load_photos"
+            android:defaultValue="false"
+            android:title="@string/load_photos_text" />
+        <SwitchPreference
+            android:key="delete_photos"
+            android:defaultValue="false"
+            android:title="@string/delete_photos_text" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/information_title">
+        <PreferenceScreen
+            android:key="about"
+            android:summary="@string/information_text"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/contacts">
+        <PreferenceScreen
+            android:key="support"
+            android:summary="@string/support_text"/>
+    </PreferenceCategory>
+</PreferenceScreen>
