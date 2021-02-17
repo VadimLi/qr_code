@@ -1,0 +1,3 @@
+include ':file_system_benchmark'
+include ':app'
+rootProject.name = "qr_code"
